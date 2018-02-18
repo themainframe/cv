@@ -1,0 +1,24 @@
+%
+% Copy this file to vars.personal.tex and modify as appropriate.
+% Do not commit your vars.personal.tex to public repositories unless you don't care.
+%
+
+% Name
+\newcommand{\personalName}{Your Name}
+
+% Address
+\newcommand{\personalAddress}{
+Your Home Address
+}
+
+% Email Address
+\newcommand{\personalEmail}{\href{mailto:you@example.com}{you@example.com}}
+
+% Phone Number
+\newcommand{\personalPhone}{0123 456 7890}
+
+% Mobile Number
+\newcommand{\personalMobile}{07123 456789}
+
+% Web Link
+\newcommand{\personalUrl}{\href{https://example.com}{example.com}}

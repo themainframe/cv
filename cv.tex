@@ -1,0 +1,55 @@
+%%
+%% cv.tex
+%% (C) Damien Walsh <me@damow.net>
+%%
+
+\documentclass[10pt,a4paper]{article}
+\setlength\parindent{0mm}
+\usepackage[margin=15mm]{geometry}
+\usepackage{hyperref}
+\usepackage{subfiles}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{wrapfig}
+\usepackage{graphbox}
+\usepackage{enumitem}
+\input{vars.personal.tex}
+\newcommand{\textsharp}{$\sharp$}
+
+\begin{document}
+\subfile{heading}
+\vspace{5mm}
+
+\section*{Education}
+    \subfile{education}
+    \vspace{5mm}
+
+\section*{Employment}
+    \subfile{employment}
+    \vspace{5mm}
+    
+\section*{Achievements}
+    \subfile{achievements}
+
+\clearpage
+    
+\section*{Skill Set}
+    \subfile{skills}
+    \vspace{5mm}
+    
+\section*{Interests \& Activities}
+    \subfile{interests}
+    \vspace{5mm}
+    
+\section*{Professional Certifications}
+    \subfile{certifications}
+    \vspace{5mm}
+    
+\section*{Online}
+    \subfile{online}
+    \vspace{5mm}
+    
+\section*{References}
+    \subfile{references}
+
+\end{document}
